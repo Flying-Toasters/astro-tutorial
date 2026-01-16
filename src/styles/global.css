@@ -75,3 +75,26 @@ h1 {
     display: none;
   }
 }
+
+html.dark {
+  background-color: #000000;
+  color: #fff;
+}
+
+.dark .menu {
+  background-color: #fff;
+  color: #000;
+}
+
+.dark .nav-links a:hover,
+.dark .nav-links a:focus {
+  color: #000000;
+}
+
+.dark .nav-links a {
+  color: #fff;
+}
+
+.dark a {
+  color: #fae2db;
+}
